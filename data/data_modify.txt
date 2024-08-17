@@ -179,26 +179,26 @@
 (@&!)uupdump.net
 
 # 钱美流量 #8
-(@%!)ssnm.xyz
+#(@%!)ssnm.xyz
 
 # 上海闪耀信息科技有限公司 / 闪耀科技 #8
-(@%!)global-ict.cn
-(@%!)global-idc.net
+#(@%!)global-ict.cn
+#(@%!)global-idc.net
 
 # UC 浏览器 #8
 (@%!)uc.cn
 
 # VCB-S
-(@&!)bbs.acgrip.com
+#(@&!)bbs.acgrip.com
 
 # Vercel
-(@%!)cname.vercel-dns.com
-(@%!)vercel.com
+#(@%!)cname.vercel-dns.com
+#(@%!)vercel.com
 
 # 支付宝
 (@%!)mobilegw.alipay.com
 
 # 治杰 Online
-(@&!)zhijie.online
+#(@&!)zhijie.online
 
 ## 自定义规则 - 结束

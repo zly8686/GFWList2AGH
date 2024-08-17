@@ -3,7 +3,7 @@
 # Current Version: 1.2.9
 
 ## How to get and use?
-# git clone "https://github.com/hezhijie0327/GFWList2AGH.git" && bash ./GFWList2AGH/release.sh
+# git clone "https://github.com/zly8686/GFWList2AGH.git" && bash ./GFWList2AGH/release.sh
 
 ## Function
 # Get Data
@@ -32,7 +32,7 @@ function GetData() {
         "https://raw.githubusercontent.com/pexcn/gfwlist-extras/master/gfwlist-extras.txt"
     )
     gfwlist2agh_modify=(
-        "https://raw.githubusercontent.com/hezhijie0327/GFWList2AGH/source/data/data_modify.txt"
+        "https://raw.githubusercontent.com/zly8686/GFWList2AGH/source/data/data_modify.txt"
     )
     rm -rf ./gfwlist2* ./Temp && mkdir ./Temp && cd ./Temp
     for cnacc_domain_task in "${!cnacc_domain[@]}"; do
@@ -140,7 +140,7 @@ function GenerateRules() {
                 # "https://dns.alidns.com:443/dns-query"
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
-                "https://doh.pub:443/dns-query"
+                "https://sm2.doh.pub:443/dns-query"
                 # "tls://dns.alidns.com:853"
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
@@ -148,7 +148,7 @@ function GenerateRules() {
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
-                "https://dns.opendns.com:443/dns-query"
+                "https://146.112.41.2:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
                 # "https://dns64.dns.google:443/dns-query"
                 # "tls://dns.google:853"
@@ -213,18 +213,18 @@ function GenerateRules() {
                 # "https://dns.alidns.com:443/dns-query"
                 # "https://dns.ipv6dns.com:443/dns-query"
                 # "https://doh.360.cn:443/dns-query"
-                "https://doh.pub:443/dns-query"
-                "tls://dns.alidns.com:853"
+                "https://sm2.doh.pub:443/dns-query"
+                "tls://1.12.12.12:853"
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
-                "https://dns.opendns.com:443/dns-query"
+                "https://146.112.41.2:443/dns-query"
                 # "https://dns11.quad9.net:443/dns-query"
                 # "https://dns64.dns.google:443/dns-query"
-                "tls://dns.google:853"
+                "tls://8.8.4.4:853"
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
@@ -486,30 +486,30 @@ function OutputData() {
     software_name="adguardhome_new" && generate_file="whiteblack" && generate_mode="full" && dns_mode="foreign" && GenerateRules
     software_name="adguardhome_new" && generate_file="whiteblack" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
     ## Bind9
-    software_name="bind9" && generate_file="black" && generate_mode="full" && GenerateRules
-    software_name="bind9" && generate_file="black" && generate_mode="lite" && GenerateRules
-    software_name="bind9" && generate_file="white" && generate_mode="full" && GenerateRules
-    software_name="bind9" && generate_file="white" && generate_mode="lite" && GenerateRules
+#    software_name="bind9" && generate_file="black" && generate_mode="full" && GenerateRules
+#    software_name="bind9" && generate_file="black" && generate_mode="lite" && GenerateRules
+#    software_name="bind9" && generate_file="white" && generate_mode="full" && GenerateRules
+#    software_name="bind9" && generate_file="white" && generate_mode="lite" && GenerateRules
     ## DNSMasq
-    software_name="dnsmasq" && generate_file="black" && generate_mode="full" && GenerateRules
-    software_name="dnsmasq" && generate_file="black" && generate_mode="lite" && GenerateRules
-    software_name="dnsmasq" && generate_file="white" && generate_mode="full" && GenerateRules
-    software_name="dnsmasq" && generate_file="white" && generate_mode="lite" && GenerateRules
+#    software_name="dnsmasq" && generate_file="black" && generate_mode="full" && GenerateRules
+#    software_name="dnsmasq" && generate_file="black" && generate_mode="lite" && GenerateRules
+#    software_name="dnsmasq" && generate_file="white" && generate_mode="full" && GenerateRules
+#    software_name="dnsmasq" && generate_file="white" && generate_mode="lite" && GenerateRules
     ## Domain
-    software_name="domain" && generate_file="black" && generate_mode="full" && GenerateRules
-    software_name="domain" && generate_file="black" && generate_mode="lite" && GenerateRules
-    software_name="domain" && generate_file="white" && generate_mode="full" && GenerateRules
-    software_name="domain" && generate_file="white" && generate_mode="lite" && GenerateRules
+#    software_name="domain" && generate_file="black" && generate_mode="full" && GenerateRules
+#    software_name="domain" && generate_file="black" && generate_mode="lite" && GenerateRules
+#    software_name="domain" && generate_file="white" && generate_mode="full" && GenerateRules
+#    software_name="domain" && generate_file="white" && generate_mode="lite" && GenerateRules
     ## SmartDNS
     software_name="smartdns" && generate_file="black" && generate_mode="full" && foreign_group="foreign" && GenerateRules
     software_name="smartdns" && generate_file="black" && generate_mode="lite" && foreign_group="foreign" && GenerateRules
     software_name="smartdns" && generate_file="white" && generate_mode="full" && domestic_group="domestic" && GenerateRules
     software_name="smartdns" && generate_file="white" && generate_mode="lite" && domestic_group="domestic" && GenerateRules
     ## Unbound
-    software_name="unbound" && generate_file="black" && generate_mode="full" && dns_mode="foreign" && GenerateRules
-    software_name="unbound" && generate_file="black" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
-    software_name="unbound" && generate_file="white" && generate_mode="full" && dns_mode="domestic" && GenerateRules
-    software_name="unbound" && generate_file="white" && generate_mode="lite" && dns_mode="domestic" && GenerateRules
+#    software_name="unbound" && generate_file="black" && generate_mode="full" && dns_mode="foreign" && GenerateRules
+#    software_name="unbound" && generate_file="black" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
+#    software_name="unbound" && generate_file="white" && generate_mode="full" && dns_mode="domestic" && GenerateRules
+#    software_name="unbound" && generate_file="white" && generate_mode="lite" && dns_mode="domestic" && GenerateRules
     cd .. && rm -rf ./Temp
     exit 0
 }
