@@ -1,6 +1,6 @@
 # Current Version: 1.0.4
 
-name: Build & GFWList2AGH
+name: GitHub
 
 on:
   push:
