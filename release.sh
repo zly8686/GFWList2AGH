@@ -234,9 +234,8 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://doh.apad.pro:443/dns-query"
-                "tcp://208.67.222.222:5353"
-                "tls://8.8.4.4:853"
+                "998789@"
+                "998789@1"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
