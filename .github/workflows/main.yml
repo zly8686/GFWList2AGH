@@ -10,7 +10,7 @@ on:
       - 'v*'
     branches: [ main ]
   schedule:
-    - cron: 0 2,14 * * *
+    - cron: 0 5,17 * * *
   workflow_dispatch:
      types: [started]
 
