@@ -1,6 +1,6 @@
 # Current Version: 1.0.4
 
-name: GitHUB
+name: Github
 
 on:
   push:
