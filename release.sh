@@ -150,8 +150,8 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "h3://x"
-                "quic://xx:853"
+                "998789@"
+                "998789@1"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -162,10 +162,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "https://208.67.220.220:443/dns-query"
-                "https://149.112.112.12:443/dns-query"
+                "https://doh.apad.pro:443/dns-query"
+                "tcp://208.67.222.222:5353"
                 "tls://8.8.4.4:853"
-                "tls://1.0.0.1:853"
+                #"tls://1.0.0.1:853"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -234,8 +234,9 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "h3://x"
-                "quic://xx:853"
+                "https://doh.apad.pro:443/dns-query"
+                "tcp://208.67.222.222:5353"
+                "tls://8.8.4.4:853"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -246,10 +247,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "https://208.67.220.220:443/dns-query"
-                "https://149.112.112.12:443/dns-query"
+                "https://doh.apad.pro:443/dns-query"
+                "tcp://208.67.222.222:5353"
                 "tls://8.8.4.4:853"
-                "tls://1.0.0.1:853"
+                #"tls://1.0.0.1:853"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
