@@ -162,9 +162,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "https://doh.apad.pro:443/dns-query"
-                "tcp://208.67.222.222:5353"
                 "tls://8.8.4.4:853"
+                "208.67.222.222:5353"
+                #"https://doh.apad.pro:443/dns-query"
+                "tcp://208.67.222.222:5353"
                 #"tls://1.0.0.1:853"
             )
             function GenerateRulesHeader() {
@@ -246,9 +247,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "https://doh.apad.pro:443/dns-query"
-                "tcp://208.67.222.222:5353"
                 "tls://8.8.4.4:853"
+                "208.67.222.222:5353"
+                #"https://doh.apad.pro:443/dns-query"
+                "tcp://208.67.222.222:5353"
                 #"tls://1.0.0.1:853"
             )
             function GenerateRulesHeader() {
