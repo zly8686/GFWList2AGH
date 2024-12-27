@@ -112,10 +112,10 @@
 (@%!)www.bing.com
 
 # Cloudflare
-(@&!)1dot1dot1dot1.cloudflare-dns.com
-(@&!)cloudflare-dns.com
-(@&!)dash.cloudflare.com
-(@&!)dns.cloudflare.com
+#(@&!)1dot1dot1dot1.cloudflare-dns.com
+#(@&!)cloudflare-dns.com
+#(@&!)dash.cloudflare.com
+#(@&!)dns.cloudflare.com
 
 # Cloudflare Workers
 (@&!)workers.dev
@@ -150,7 +150,7 @@
 (@&!)desktop.githubusercontent.com
 
 # Google
-(@&!)dns.google
+#(@&!)dns.google
 (@&!)google.com
 (@&!)redirector.googlevideo.com
 
@@ -158,47 +158,24 @@
 (@%!)it-global.cn
 
 # jsDelivr
-(@&!)cdn.jsdelivr.net
-(@&!)jsdelivr.net
+#(@&!)cdn.jsdelivr.net
+#(@&!)jsdelivr.net
 
 # Miro
 (@&!)miro.com
 
 # OpenDNS
-(@&!)dns.opendns.com
-(@&!)doh.opendns.com
-
-# ServiceNow
-(@&!)service-now.com
-
-# SmartSheet
-(@&!)app.smartsheet.com
-(@&!)smartsheet.com
-
-# UUP dump
-(@&!)uupdump.net
-
-# 钱美流量 #8
-#(@%!)ssnm.xyz
-
-# 上海闪耀信息科技有限公司 / 闪耀科技 #8
-#(@%!)global-ict.cn
-#(@%!)global-idc.net
+#(@&!)dns.opendns.com
+#(@&!)doh.opendns.com
 
 # UC 浏览器 #8
 (@%!)uc.cn
 
-# VCB-S
-#(@&!)bbs.acgrip.com
-
-# Vercel
-#(@%!)cname.vercel-dns.com
-#(@%!)vercel.com
-
 # 支付宝
 (@%!)mobilegw.alipay.com
 
-# 治杰 Online
-#(@&!)zhijie.online
+(@&!)dnscheck.tools
+(@&!)nextdns.io
+
 
 ## 自定义规则 - 结束

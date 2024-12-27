@@ -150,8 +150,10 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "998789@"
-                "998789@1"
+                "https://1.12.12.12/dns-query"
+                "h3://10363.alidns.com/dns-query"
+				"https://120.53.53.53/dns-query"
+				"h3://24867.alidns.com/dns-query"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -162,11 +164,9 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
+                "h3://cloudflare-dns.com/dns-query"
                 "tls://8.8.4.4:853"
-                "208.67.222.222:5353"
-                #"https://doh.apad.pro:443/dns-query"
-                "tcp://208.67.222.222:5353"
-                #"tls://1.0.0.1:853"
+                "https://208.67.222.222/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -235,8 +235,10 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "998789@"
-                "998789@1"
+                "https://1.12.12.12/dns-query"
+                "h3://10363.alidns.com/dns-query"
+				"https://120.53.53.53/dns-query"
+				"h3://24867.alidns.com/dns-query"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -247,11 +249,9 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
+                "h3://cloudflare-dns.com/dns-query"
                 "tls://8.8.4.4:853"
-                "208.67.222.222:5353"
-                #"https://doh.apad.pro:443/dns-query"
-                "tcp://208.67.222.222:5353"
-                #"tls://1.0.0.1:853"
+                "https://208.67.222.222/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -525,10 +525,10 @@ function OutputData() {
 #    software_name="domain" && generate_file="white" && generate_mode="full" && GenerateRules
 #    software_name="domain" && generate_file="white" && generate_mode="lite" && GenerateRules
     ## SmartDNS
-    software_name="smartdns" && generate_file="black" && generate_mode="full" && foreign_group="foreign" && GenerateRules
-    software_name="smartdns" && generate_file="black" && generate_mode="lite" && foreign_group="foreign" && GenerateRules
-    software_name="smartdns" && generate_file="white" && generate_mode="full" && domestic_group="domestic" && GenerateRules
-    software_name="smartdns" && generate_file="white" && generate_mode="lite" && domestic_group="domestic" && GenerateRules
+#    software_name="smartdns" && generate_file="black" && generate_mode="full" && foreign_group="foreign" && GenerateRules
+#    software_name="smartdns" && generate_file="black" && generate_mode="lite" && foreign_group="foreign" && GenerateRules
+#    software_name="smartdns" && generate_file="white" && generate_mode="full" && domestic_group="domestic" && GenerateRules
+#    software_name="smartdns" && generate_file="white" && generate_mode="lite" && domestic_group="domestic" && GenerateRules
     ## Unbound
 #    software_name="unbound" && generate_file="black" && generate_mode="full" && dns_mode="foreign" && GenerateRules
 #    software_name="unbound" && generate_file="black" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
