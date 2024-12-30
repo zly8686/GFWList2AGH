@@ -150,10 +150,8 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://1.12.12.12/dns-query"
-                "h3://10363.alidns.com/dns-query"
-				"https://120.53.53.53/dns-query"
-				"h3://24867.alidns.com/dns-query"
+                "h3://#.alidns.com/dns-query"
+				"h3://12345.alidns.com/dns-query"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -164,9 +162,8 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "h3://cloudflare-dns.com/dns-query"
+                "https://101.101.101.101/dns-query"
                 "tls://8.8.4.4:853"
-                "https://208.67.222.222/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -235,10 +232,8 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://1.12.12.12/dns-query"
-                "h3://10363.alidns.com/dns-query"
-				"https://120.53.53.53/dns-query"
-				"h3://24867.alidns.com/dns-query"
+                "h3://#.alidns.com/dns-query"
+				"h3://12345.alidns.com/dns-query"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -249,9 +244,8 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-                "h3://cloudflare-dns.com/dns-query"
+                "https://101.101.101.101/dns-query"
                 "tls://8.8.4.4:853"
-                "https://208.67.222.222/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
