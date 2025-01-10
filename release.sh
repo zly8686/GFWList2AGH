@@ -162,6 +162,8 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
+				"h3://162.159.36.1:8443/dns-query"
+				"h3://dns.nextdns.io/"
                 "https://101.101.101.101/dns-query"
                 "tls://8.8.4.4:853"
             )
@@ -244,6 +246,8 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
+				"h3://162.159.36.1:8443/dns-query"
+				"h3://dns.nextdns.io/"
                 "https://101.101.101.101/dns-query"
                 "tls://8.8.4.4:853"
             )
