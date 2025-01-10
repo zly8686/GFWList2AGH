@@ -164,7 +164,7 @@ function GenerateRules() {
                 # "tls://dns64.dns.google:853"
 				"h3://162.159.36.1:8443/dns-query"
 				"h3://dns.nextdns.io/"
-                "https://101.101.101.101/dns-query"
+                #"https://101.101.101.101/dns-query"
                 "tls://8.8.4.4:853"
             )
             function GenerateRulesHeader() {
@@ -248,7 +248,7 @@ function GenerateRules() {
                 # "tls://dns64.dns.google:853"
 				"h3://162.159.36.1:8443/dns-query"
 				"h3://dns.nextdns.io/"
-                "https://101.101.101.101/dns-query"
+                #"https://101.101.101.101/dns-query"
                 "tls://8.8.4.4:853"
             )
             function GenerateRulesHeader() {
