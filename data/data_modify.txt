@@ -144,11 +144,6 @@
 (@&!)hub.fastgit.org
 (@&!)raw.fastgit.org
 
-# GitHub
-(@&!)github.com
-(@&!)githubusercontent.com
-(@&!)desktop.githubusercontent.com
-
 # Google
 #(@&!)dns.google
 (@&!)google.com
@@ -174,12 +169,15 @@
 # 支付宝
 (@%!)mobilegw.alipay.com
 
-(@&!)skk.moe
+(@&!)ip.skk.moe
 (@&!)ipcheck.ing
 (@&!)dnscheck.tools
-(@&!)browserleaks.com
-(@&!)dnscheck.tools
+(@&!)*.browserleaks.com
 (@&!)nextdns.io
+# GitHub
+(@&!)github.com
+(@&!)githubusercontent.com
+(@&!)desktop.githubusercontent.com
 (@&!)alive.github.com
 (@&!)api.github.com
 (@&!)assets-cdn.github.com
@@ -195,7 +193,6 @@
 (@&!)cloud.githubusercontent.com
 (@&!)codeload.github.com
 (@&!)collector.github.com
-(@&!)desktop.githubusercontent.com
 (@&!)favicons.githubusercontent.com
 (@&!)gist.github.com
 (@&!)github-cloud.s3.amazonaws.com
@@ -204,7 +201,6 @@
 (@&!)github-production-repository-file-5c1aeb.s3.amazonaws.com
 (@&!)github-production-user-asset-6210df.s3.amazonaws.com
 (@&!)github.blog
-(@&!)github.com
 (@&!)github.community
 (@&!)github.githubassets.com
 (@&!)github.global.ssl.fastly.net
