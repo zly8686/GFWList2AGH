@@ -172,7 +172,7 @@
 (@&!)ip.skk.moe
 (@&!)ipcheck.ing
 (@&!)dnscheck.tools
-(@&!)*.browserleaks.com
+(@&!)browserleaks.com
 (@&!)nextdns.io
 # GitHub
 (@&!)github.com
