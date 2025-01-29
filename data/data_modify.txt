@@ -169,10 +169,10 @@
 # 支付宝
 (@%!)mobilegw.alipay.com
 
-(@&!)ip.skk.moe
-(@&!)ipcheck.ing
-(@&!)dnscheck.tools
-(@&!)browserleaks.com
+#(@&!)ip.skk.moe
+#(@&!)ipcheck.ing
+#(@&!)dnscheck.tools
+#(@&!)browserleaks.com
 (@&!)nextdns.io
 # GitHub
 (@&!)github.com
