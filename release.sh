@@ -150,9 +150,9 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://#.alidns.com/dns-query"
-				"tls://dot.pub:853"
-				"208.67.222.222:5353"
+                "https://106.75.165.71:443/dns-query"
+				"https://#.alidns.com:443/dns-query"
+				"quic://#.dns.nextdns.io"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -163,10 +163,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-				"https://162.159.36.1:8443/dns-query"
+				#"https://162.159.36.1:8443/dns-query"
 				"https://146.112.41.2/dns-query"
                 #"https://101.101.101.101/dns-query"
-                "https://doh.apad.pro/dns-query"
+                "quic://94.140.14.140:853"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -235,9 +235,9 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://#.alidns.com/dns-query"
-				"tls://dot.pub:853"
-				"208.67.222.222:5353"
+                "https://106.75.165.71:443/dns-query"
+				"https://#.alidns.com:443/dns-query"
+				"quic://#.dns.nextdns.io"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -248,10 +248,10 @@ function GenerateRules() {
                 # "tls://dns.opendns.com:853"
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
-				"https://162.159.36.1:8443/dns-query"
+				#"https://162.159.36.1:8443/dns-query"
 				"https://146.112.41.2/dns-query"
                 #"https://101.101.101.101/dns-query"
-                "https://doh.apad.pro/dns-query"
+                "quic://94.140.14.140:853"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
