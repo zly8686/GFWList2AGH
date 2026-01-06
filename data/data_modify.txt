@@ -105,6 +105,7 @@
 # 阿里云
 (@%!)alibabadns.com
 (@%!)dns.alidns.com
+(@%!)alidns.com
 
 # 必应
 (@%!)cn.bing.com
@@ -168,12 +169,13 @@
 
 # 支付宝
 (@%!)mobilegw.alipay.com
-
+(@%!)example.org
 #(@&!)ip.skk.moe
 #(@&!)ipcheck.ing
 #(@&!)dnscheck.tools
 #(@&!)browserleaks.com
-(@&!)nextdns.io
+(!!!)test.nextdns.io
+(!!!)wget.la
 (@&!)api.ip.sb
 (@&!)ip-api.com
 #(@&!)pro.ip-api.com

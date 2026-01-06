@@ -150,9 +150,8 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://106.75.165.71:443/dns-query"
-				"https://#.alidns.com:443/dns-query"
-				"quic://#.dns.nextdns.io"
+                "https://1.12.12.12/dns-query"
+				"https://223.5.5.5/dns-query"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -164,9 +163,10 @@ function GenerateRules() {
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
 				#"https://162.159.36.1:8443/dns-query"
-				"https://146.112.41.2/dns-query"
                 #"https://101.101.101.101/dns-query"
-                "quic://94.140.14.140:853"
+				"https://#/dns-query"
+                "https://#/dns-query"
+				"https://#/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -235,9 +235,8 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://106.75.165.71:443/dns-query"
-				"https://#.alidns.com:443/dns-query"
-				"quic://#.dns.nextdns.io"
+                "https://1.12.12.12/dns-query"
+				"https://223.5.5.5/dns-query"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -249,9 +248,10 @@ function GenerateRules() {
                 # "tls://dns11.quad9.net:853"
                 # "tls://dns64.dns.google:853"
 				#"https://162.159.36.1:8443/dns-query"
-				"https://146.112.41.2/dns-query"
                 #"https://101.101.101.101/dns-query"
-                "quic://94.140.14.140:853"
+				"https://#/dns-query"
+                "https://#/dns-query"
+				"https://#/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -520,15 +520,15 @@ function OutputData() {
 #    software_name="dnsmasq" && generate_file="white" && generate_mode="full" && GenerateRules
 #    software_name="dnsmasq" && generate_file="white" && generate_mode="lite" && GenerateRules
     ## Domain
-#    software_name="domain" && generate_file="black" && generate_mode="full" && GenerateRules
-#    software_name="domain" && generate_file="black" && generate_mode="lite" && GenerateRules
-#    software_name="domain" && generate_file="white" && generate_mode="full" && GenerateRules
-#    software_name="domain" && generate_file="white" && generate_mode="lite" && GenerateRules
+    software_name="domain" && generate_file="black" && generate_mode="full" && GenerateRules
+    software_name="domain" && generate_file="black" && generate_mode="lite" && GenerateRules
+    software_name="domain" && generate_file="white" && generate_mode="full" && GenerateRules
+    software_name="domain" && generate_file="white" && generate_mode="lite" && GenerateRules
     ## SmartDNS
-#    software_name="smartdns" && generate_file="black" && generate_mode="full" && foreign_group="foreign" && GenerateRules
-#    software_name="smartdns" && generate_file="black" && generate_mode="lite" && foreign_group="foreign" && GenerateRules
-#    software_name="smartdns" && generate_file="white" && generate_mode="full" && domestic_group="domestic" && GenerateRules
-#    software_name="smartdns" && generate_file="white" && generate_mode="lite" && domestic_group="domestic" && GenerateRules
+    software_name="smartdns" && generate_file="black" && generate_mode="full" && foreign_group="foreign" && GenerateRules
+    software_name="smartdns" && generate_file="black" && generate_mode="lite" && foreign_group="foreign" && GenerateRules
+    software_name="smartdns" && generate_file="white" && generate_mode="full" && domestic_group="domestic" && GenerateRules
+    software_name="smartdns" && generate_file="white" && generate_mode="lite" && domestic_group="domestic" && GenerateRules
     ## Unbound
 #    software_name="unbound" && generate_file="black" && generate_mode="full" && dns_mode="foreign" && GenerateRules
 #    software_name="unbound" && generate_file="black" && generate_mode="lite" && dns_mode="foreign" && GenerateRules
