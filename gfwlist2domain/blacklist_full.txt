@@ -3494,6 +3494,7 @@ battlefront2.com
 battlefrontii.com
 battlelog.com
 battlenet.com
+battleye.com
 bavs.ac.uk
 baxsound.com
 bayareabmw.com
@@ -17585,6 +17586,7 @@ kpinsurances.com
 kpkuang.org
 kpptoto.info
 kqes.net
+kraftonde.com
 kraken.com
 kraken.onl
 krakenjs.com
@@ -23710,6 +23712,7 @@ play4free.com
 playapex.com
 playartifact.com
 playbar.biz
+playbattlegrounds.com
 playbeasts.com
 playboy.com
 playboy.com.uk
@@ -24558,6 +24561,8 @@ pttyes.com
 ptwxz.com
 ptzwx.com
 pub.dev
+pubg.com
+pubg1.battleye.com
 public-sex-porn.com
 public-trust.com
 public-us-pingsx.api.clonoth.com
