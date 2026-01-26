@@ -150,8 +150,10 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://1.12.12.12/dns-query"
-				"https://223.5.5.5/dns-query"
+                "tcp://211.136.192.6:53"
+				             "211.136.192.6:53"
+                 "tcp://223.5.5.5:53"
+                 "223.5.5.5:53"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -166,7 +168,6 @@ function GenerateRules() {
                 #"https://101.101.101.101/dns-query"
 				"https://#/dns-query"
                 "https://#/dns-query"
-				"https://#/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -235,8 +236,10 @@ function GenerateRules() {
                 # "tls://dns.ipv6dns.com:853"
                 # "tls://dot.360.cn:853"
                 # "tls://dot.pub:853"
-                "https://1.12.12.12/dns-query"
-				"https://223.5.5.5/dns-query"
+                                "tcp://211.136.192.6"
+				             "211.136.192.6"
+                 "tcp://223.5.5.5"
+                 "223.5.5.5"
             )
             foreign_dns=(
                 # "https://dns.google:443/dns-query"
@@ -251,7 +254,6 @@ function GenerateRules() {
                 #"https://101.101.101.101/dns-query"
 				"https://#/dns-query"
                 "https://#/dns-query"
-				"https://#/dns-query"
             )
             function GenerateRulesHeader() {
                 echo -n "[/" >> "${file_path}"
@@ -306,7 +308,7 @@ function GenerateRules() {
                 "223.5.5.5 port 53"
             )
             foreign_dns=(
-                "8.8.8.8 port 53"
+                "8.8.4.4 port 53"
             )
             if [ "${generate_mode}" == "full" ]; then
                 if [ "${generate_file}" == "black" ]; then
@@ -351,7 +353,7 @@ function GenerateRules() {
                 "223.5.5.5#53"
             )
             foreign_dns=(
-                "8.8.8.8#53"
+                "8.8.4.4#53"
             )
             if [ "${generate_mode}" == "full" ]; then
                 if [ "${generate_file}" == "black" ]; then
