@@ -2180,11 +2180,13 @@ ateam-oracle.com
 atgfw.org
 athenaeizou.com
 atkgallery.com
+atl-paas.net
 atlanta168.com
 atlantaminidealers.com
 atlasdmt.com
 atlasonepoint.com
 atlaspost.com
+atlassian-dev.net
 atlassian.com
 atlassian.net
 atnext.com
@@ -8705,6 +8707,9 @@ fotolia.tv
 fotolja.com
 fotoscaserasx.com
 foundationdb.org
+foundationdns.com
+foundationdns.net
+foundationdns.org
 fountmedia.io
 fourthinternational.org
 fourthns.systems
@@ -12682,6 +12687,7 @@ jinsilubanzhao.com
 jintian.net
 jinvod.com
 jinx.com
+jira.com
 jiruan.net
 jitouch.com
 jitpack.io
@@ -20328,6 +20334,7 @@ srocket.us
 srtcdn.net
 srttu.edu
 srwwu.uno
+ss-inf.net
 ss-link.com
 ss2.us
 ss7.app
