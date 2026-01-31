@@ -3492,6 +3492,7 @@ bbc.com
 bbc.in
 bbc.mp-pxcdn.com
 bbc.net.uk
+bbc.pdn.tritondigital.com
 bbcchinese.com
 bbchat.tv
 bbci.co.uk
@@ -8212,6 +8213,7 @@ dcd.ac.uk
 dcdp.ac.uk
 dcg.ac.uk
 dcmilitary.com
+dcs-spotify.megaphone.fm
 dct.ac.uk
 dctbeatsbydre.com
 ddacn6pr5v0tl.cloudfront.net
@@ -14049,6 +14051,7 @@ hellouk.org
 hellporno.com
 hellven.net
 heloa.ac.uk
+help.byspotify.com
 helpeachpeople.com
 helplinfen.com
 helpshift.com
@@ -29775,6 +29778,7 @@ triokini.com
 tristatebmw.com
 trithucvn.net
 trithucvn.org
+tritondigital.com
 trixhentai.com
 trmini.com
 trocoll.ac.uk
