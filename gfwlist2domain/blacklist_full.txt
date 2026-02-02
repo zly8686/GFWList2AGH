@@ -5445,6 +5445,7 @@ brutaltgp.com
 bs-adreview.com
 bs-awh.ne.jp
 bsa.ac.uk
+bsappapi.com
 bsaw.ac.uk
 bsbec.ac.uk
 bsdc.ac.uk
@@ -22928,6 +22929,7 @@ paaypal.com
 pachosting.com
 pacifickitchenandhome.com
 pacificpoker.com
+packages.microsoft.com
 packaging-cadcam.com
 packagingcadcam.com
 packagist.org
@@ -23669,6 +23671,7 @@ pixtronix.com
 pjbyj.top
 pjful-app.lol
 pjgirls.com
+pjsekai.sega.jp
 pk.com
 pki-post.ch
 pki-posta.ch
@@ -26324,6 +26327,7 @@ seezone.net
 sef.org.tw
 sefton-acl.ac.uk
 sefton.ac.uk
+sega.jp
 segment.com
 sego8.cc
 sego8.co
