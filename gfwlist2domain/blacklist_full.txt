@@ -7322,7 +7322,6 @@ com.bo
 com.bs
 com.by
 com.bz
-com.co
 com.cu
 com.cy
 com.de
@@ -25836,6 +25835,7 @@ sale-nikeshoes.com
 salebeatslasteststyle4you.com
 saleblackfridaydrebeats.com
 salecheaphandbags.com
+salesforce-setup.com
 salesforce.com
 salesforce.org
 salesforceiq.com
