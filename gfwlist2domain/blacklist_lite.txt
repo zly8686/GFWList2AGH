@@ -5393,6 +5393,8 @@ codeforces.com
 codei.sh
 codeish.co
 codeish.io
+codeium.com
+codeiumdata.com
 codeplex.com
 coderabbit.ai
 codeshare.io
@@ -13277,9 +13279,7 @@ lanmdh.net
 lanniser-ylo.shop
 lantern.io
 lanternal.com
-lanterncn.cn
 lantosfoundation.org
-laod.cn
 laogai.org
 laogairesearch.org
 laomiu.com
@@ -20486,6 +20486,7 @@ stateofthemap.org
 static-cisco.com
 static-economist.com
 static-nike.com
+static-storage.net
 static-verizon.com
 static.fun
 statically.io
@@ -23594,6 +23595,8 @@ windowsphone-int.com
 windowsphoneme.com
 windowsuem.com
 windscribe.com
+windsurf.build
+windsurf.com
 windy.com
 wingamestore.com
 wingy.site
