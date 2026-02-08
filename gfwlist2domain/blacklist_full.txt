@@ -3511,6 +3511,8 @@ bbk.ac.uk
 bbkz.com
 bbnradio.org
 bbqm1.xyz
+bbs-api-os-static.hoyolab.com
+bbs-api-os.hoyolab.com
 bbs-cove.ac.uk
 bbs-tw.com
 bbs.boingboing.net
