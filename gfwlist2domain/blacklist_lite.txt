@@ -9531,6 +9531,7 @@ gettyimages.nl
 gettyimages.no
 gettyimages.pt
 gettyimages.se
+gettyimages.us
 getuploader.com
 getws1.com
 getwsone.com
@@ -11280,6 +11281,7 @@ hungryclit.com
 hunk.ws
 huobi.co
 huobi.com
+huobi.li
 huobi.me
 huobi.pro
 huobi.sc

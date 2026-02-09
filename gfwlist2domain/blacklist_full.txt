@@ -12733,6 +12733,7 @@ gettyimages.nl
 gettyimages.no
 gettyimages.pt
 gettyimages.se
+gettyimages.us
 getuploader.com
 getws1.com
 getwsone.com
@@ -15130,6 +15131,7 @@ hunk.ws
 huntingdon.ac.uk
 huobi.co
 huobi.com
+huobi.li
 huobi.me
 huobi.pro
 huobi.sc
